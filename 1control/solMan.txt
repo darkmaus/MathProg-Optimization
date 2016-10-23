@@ -1,0 +1,839 @@
+Problem:    v0
+Rows:       219
+Columns:    196 (196 integer, 196 binary)
+Non-zeros:  682
+Status:     INTEGER OPTIMAL
+Objective:  COST = 8 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 COST                        8                             
+     2 FLOW_CONSERVATION[alpha,1]
+                                   0            -0             = 
+     3 FLOW_CONSERVATION[bravo,1]
+                                   0            -0             = 
+     4 FLOW_CONSERVATION[charlie,1]
+                                   0            -0             = 
+     5 FLOW_CONSERVATION[delta,1]
+                                   0            -0             = 
+     6 FLOW_CONSERVATION[NFV,1]
+                                   0            -0             = 
+     7 FLOW_CONSERVATION[foxtrot,1]
+                                  -1            -1             = 
+     8 FLOW_CONSERVATION[hotel,1]
+                                   0            -0             = 
+     9 FLOW_CONSERVATION[india,1]
+                                   0            -0             = 
+    10 FLOW_CONSERVATION[juliett,1]
+                                   0            -0             = 
+    11 FLOW_CONSERVATION[kilo,1]
+                                   0            -0             = 
+    12 FLOW_CONSERVATION[lima,1]
+                                   0            -0             = 
+    13 FLOW_CONSERVATION[oscar,1]
+                                   0            -0             = 
+    14 FLOW_CONSERVATION[mike,1]
+                                   0            -0             = 
+    15 FLOW_CONSERVATION[november,1]
+                                   0            -0             = 
+    16 FLOW_CONSERVATION[papa,1]
+                                   0            -0             = 
+    17 FLOW_CONSERVATION[rol22,1]
+                                   0            -0             = 
+    18 FLOW_CONSERVATION[romeo,1]
+                                   1             1             = 
+    19 FLOW_CONSERVATION[rol2,1]
+                                   0            -0             = 
+    20 FLOW_CONSERVATION[tango,1]
+                                   0            -0             = 
+    21 FLOW_CONSERVATION[uniform,1]
+                                   0            -0             = 
+    22 FLOW_CONSERVATION[victor,1]
+                                   0            -0             = 
+    23 PASS_THROUGH_NF[1]
+                                   2             2             = 
+    24 CAPACITY[alpha,bravo]
+                                   0                          -0 
+    25 CAPACITY[alpha,charlie]
+                                   0                          -0 
+    26 CAPACITY[alpha,delta]
+                                   0                          -0 
+    27 CAPACITY[bravo,romeo]
+                                   0                          -0 
+    28 CAPACITY[bravo,NFV]
+                                   0                          -0 
+    29 CAPACITY[bravo,charlie]
+                                   0                          -0 
+    30 CAPACITY[bravo,alpha]
+                                   0                          -0 
+    31 CAPACITY[bravo,oscar]
+                                   0                          -0 
+    32 CAPACITY[bravo,foxtrot]
+                                   0                          -0 
+    33 CAPACITY[charlie,alpha]
+                                   0                          -0 
+    34 CAPACITY[charlie,bravo]
+                                   0                          -0 
+    35 CAPACITY[charlie,foxtrot]
+                                   0                          -0 
+    36 CAPACITY[charlie,delta]
+                                   0                          -0 
+    37 CAPACITY[delta,foxtrot]
+                                   0                          -0 
+    38 CAPACITY[delta,alpha]
+                                   0                          -0 
+    39 CAPACITY[delta,charlie]
+                                   0                          -0 
+    40 CAPACITY[delta,CONTROL]
+                                   0                          -0 
+    41 CAPACITY[NFV,hotel]
+                                   0                          -0 
+    42 CAPACITY[NFV,foxtrot]
+                                   0                          -0 
+    43 CAPACITY[NFV,bravo]
+                                   0                          -0 
+    44 CAPACITY[NFV,romeo]
+                               -1900                          -0 
+    45 CAPACITY[foxtrot,bravo]
+                                   0                          -0 
+    46 CAPACITY[foxtrot,hotel]
+                                   0                          -0 
+    47 CAPACITY[foxtrot,delta]
+                                   0                          -0 
+    48 CAPACITY[foxtrot,juliett]
+                                   0                          -0 
+    49 CAPACITY[foxtrot,NFV]
+                               -1900                          -0 
+    50 CAPACITY[foxtrot,india]
+                                   0                          -0 
+    51 CAPACITY[foxtrot,CONTROL]
+                                   0                          -0 
+    52 CAPACITY[foxtrot,charlie]
+                                   0                          -0 
+    53 CAPACITY[CONTROL,juliett]
+                                   0                          -0 
+    54 CAPACITY[CONTROL,foxtrot]
+                                   0                          -0 
+    55 CAPACITY[CONTROL,delta]
+                                   0                          -0 
+    56 CAPACITY[hotel,kilo]
+                                   0                          -0 
+    57 CAPACITY[hotel,india]
+                                   0                          -0 
+    58 CAPACITY[hotel,NFV]
+                                   0                          -0 
+    59 CAPACITY[hotel,uniform]
+                                   0                          -0 
+    60 CAPACITY[hotel,romeo]
+                                   0                          -0 
+    61 CAPACITY[hotel,foxtrot]
+                                   0                          -0 
+    62 CAPACITY[india,hotel]
+                                   0                          -0 
+    63 CAPACITY[india,juliett]
+                                   0                          -0 
+    64 CAPACITY[india,foxtrot]
+                                   0                          -0 
+    65 CAPACITY[india,kilo]
+                                   0                          -0 
+    66 CAPACITY[juliett,kilo]
+                                   0                          -0 
+    67 CAPACITY[juliett,india]
+                                   0                          -0 
+    68 CAPACITY[juliett,foxtrot]
+                                   0                          -0 
+    69 CAPACITY[juliett,CONTROL]
+                                   0                          -0 
+    70 CAPACITY[kilo,hotel]
+                                   0                          -0 
+    71 CAPACITY[kilo,india]
+                                   0                          -0 
+    72 CAPACITY[kilo,juliett]
+                                   0                          -0 
+    73 CAPACITY[lima,mike]
+                                   0                          -0 
+    74 CAPACITY[lima,november]
+                                   0                          -0 
+    75 CAPACITY[lima,oscar]
+                                   0                          -0 
+    76 CAPACITY[mike,lima]
+                                   0                          -0 
+    77 CAPACITY[mike,november]
+                                   0                          -0 
+    78 CAPACITY[mike,papa]
+                                   0                          -0 
+    79 CAPACITY[mike,rol2]
+                                   0                          -0 
+    80 CAPACITY[november,mike]
+                                   0                          -0 
+    81 CAPACITY[november,lima]
+                                   0                          -0 
+    82 CAPACITY[november,oscar]
+                                   0                          -0 
+    83 CAPACITY[november,rol2]
+                                   0                          -0 
+    84 CAPACITY[oscar,lima]
+                                   0                          -0 
+    85 CAPACITY[oscar,november]
+                                   0                          -0 
+    86 CAPACITY[oscar,rol2]
+                                   0                          -0 
+    87 CAPACITY[oscar,bravo]
+                                   0                          -0 
+    88 CAPACITY[oscar,romeo]
+                                   0                          -0 
+    89 CAPACITY[romeo,oscar]
+                                   0                          -0 
+    90 CAPACITY[romeo,rol2]
+                                   0                          -0 
+    91 CAPACITY[romeo,uniform]
+                                   0                          -0 
+    92 CAPACITY[romeo,bravo]
+                                   0                          -0 
+    93 CAPACITY[romeo,hotel]
+                                   0                          -0 
+    94 CAPACITY[romeo,NFV]
+                                   0                          -0 
+    95 CAPACITY[papa,mike]
+                                   0                          -0 
+    96 CAPACITY[papa,rol2]
+                                   0                          -0 
+    97 CAPACITY[papa,rol22]
+                                   0                          -0 
+    98 CAPACITY[rol2,papa]
+                                   0                          -0 
+    99 CAPACITY[rol2,rol22]
+                                   0                          -0 
+   100 CAPACITY[rol2,mike]
+                                   0                          -0 
+   101 CAPACITY[rol2,november]
+                                   0                          -0 
+   102 CAPACITY[rol2,oscar]
+                                   0                          -0 
+   103 CAPACITY[rol2,uniform]
+                                   0                          -0 
+   104 CAPACITY[rol2,romeo]
+                                   0                          -0 
+   105 CAPACITY[rol2,tango]
+                                   0                          -0 
+   106 CAPACITY[rol22,rol2]
+                                   0                          -0 
+   107 CAPACITY[rol22,papa]
+                                   0                          -0 
+   108 CAPACITY[rol22,tango]
+                                   0                          -0 
+   109 CAPACITY[rol22,victor]
+                                   0                          -0 
+   110 CAPACITY[tango,rol2]
+                                   0                          -0 
+   111 CAPACITY[tango,rol22]
+                                   0                          -0 
+   112 CAPACITY[tango,uniform]
+                                   0                          -0 
+   113 CAPACITY[tango,victor]
+                                   0                          -0 
+   114 CAPACITY[uniform,romeo]
+                                   0                          -0 
+   115 CAPACITY[uniform,rol2]
+                                   0                          -0 
+   116 CAPACITY[uniform,tango]
+                                   0                          -0 
+   117 CAPACITY[uniform,victor]
+                                   0                          -0 
+   118 CAPACITY[uniform,hotel]
+                                   0                          -0 
+   119 CAPACITY[victor,rol22]
+                                   0                          -0 
+   120 CAPACITY[victor,tango]
+                                   0                          -0 
+   121 CAPACITY[victor,uniform]
+                                   0                          -0 
+   122 BWC[alpha,bravo]
+                                   0                          -0 
+   123 BWC[alpha,charlie]
+                                   0                          -0 
+   124 BWC[alpha,delta]
+                                   0                          -0 
+   125 BWC[bravo,romeo]
+                                   0                          -0 
+   126 BWC[bravo,NFV]
+                                   0                          -0 
+   127 BWC[bravo,charlie]
+                                   0                          -0 
+   128 BWC[bravo,alpha]
+                                   0                          -0 
+   129 BWC[bravo,oscar]
+                                   0                          -0 
+   130 BWC[bravo,foxtrot]
+                                   0                          -0 
+   131 BWC[charlie,alpha]
+                                   0                          -0 
+   132 BWC[charlie,bravo]
+                                   0                          -0 
+   133 BWC[charlie,foxtrot]
+                                   0                          -0 
+   134 BWC[charlie,delta]
+                                   0                          -0 
+   135 BWC[delta,foxtrot]
+                                   0                          -0 
+   136 BWC[delta,alpha]
+                                   0                          -0 
+   137 BWC[delta,charlie]
+                                   0                          -0 
+   138 BWC[delta,CONTROL]
+                                   0                          -0 
+   139 BWC[NFV,hotel]
+                                   0                          -0 
+   140 BWC[NFV,foxtrot]
+                                   0                          -0 
+   141 BWC[NFV,bravo]
+                                   0                          -0 
+   142 BWC[NFV,romeo]
+                               -1899                          -0 
+   143 BWC[foxtrot,bravo]
+                                   0                          -0 
+   144 BWC[foxtrot,hotel]
+                                   0                          -0 
+   145 BWC[foxtrot,delta]
+                                   0                          -0 
+   146 BWC[foxtrot,juliett]
+                                   0                          -0 
+   147 BWC[foxtrot,NFV]
+                               -1899                          -0 
+   148 BWC[foxtrot,india]
+                                   0                          -0 
+   149 BWC[foxtrot,CONTROL]
+                                   0                          -0 
+   150 BWC[foxtrot,charlie]
+                                   0                          -0 
+   151 BWC[CONTROL,juliett]
+                                   0                          -0 
+   152 BWC[CONTROL,foxtrot]
+                                   0                          -0 
+   153 BWC[CONTROL,delta]
+                                   0                          -0 
+   154 BWC[hotel,kilo]
+                                   0                          -0 
+   155 BWC[hotel,india]
+                                   0                          -0 
+   156 BWC[hotel,NFV]
+                                   0                          -0 
+   157 BWC[hotel,uniform]
+                                   0                          -0 
+   158 BWC[hotel,romeo]
+                                   0                          -0 
+   159 BWC[hotel,foxtrot]
+                                   0                          -0 
+   160 BWC[india,hotel]
+                                   0                          -0 
+   161 BWC[india,juliett]
+                                   0                          -0 
+   162 BWC[india,foxtrot]
+                                   0                          -0 
+   163 BWC[india,kilo]
+                                   0                          -0 
+   164 BWC[juliett,kilo]
+                                   0                          -0 
+   165 BWC[juliett,india]
+                                   0                          -0 
+   166 BWC[juliett,foxtrot]
+                                   0                          -0 
+   167 BWC[juliett,CONTROL]
+                                   0                          -0 
+   168 BWC[kilo,hotel]
+                                   0                          -0 
+   169 BWC[kilo,india]
+                                   0                          -0 
+   170 BWC[kilo,juliett]
+                                   0                          -0 
+   171 BWC[lima,mike]
+                                   0                          -0 
+   172 BWC[lima,november]
+                                   0                          -0 
+   173 BWC[lima,oscar]
+                                   0                          -0 
+   174 BWC[mike,lima]
+                                   0                          -0 
+   175 BWC[mike,november]
+                                   0                          -0 
+   176 BWC[mike,papa]
+                                   0                          -0 
+   177 BWC[mike,rol2]
+                                   0                          -0 
+   178 BWC[november,mike]
+                                   0                          -0 
+   179 BWC[november,lima]
+                                   0                          -0 
+   180 BWC[november,oscar]
+                                   0                          -0 
+   181 BWC[november,rol2]
+                                   0                          -0 
+   182 BWC[oscar,lima]
+                                   0                          -0 
+   183 BWC[oscar,november]
+                                   0                          -0 
+   184 BWC[oscar,rol2]
+                                   0                          -0 
+   185 BWC[oscar,bravo]
+                                   0                          -0 
+   186 BWC[oscar,romeo]
+                                   0                          -0 
+   187 BWC[romeo,oscar]
+                                   0                          -0 
+   188 BWC[romeo,rol2]
+                                   0                          -0 
+   189 BWC[romeo,uniform]
+                                   0                          -0 
+   190 BWC[romeo,bravo]
+                                   0                          -0 
+   191 BWC[romeo,hotel]
+                                   0                          -0 
+   192 BWC[romeo,NFV]
+                                   0                          -0 
+   193 BWC[papa,mike]
+                                   0                          -0 
+   194 BWC[papa,rol2]
+                                   0                          -0 
+   195 BWC[papa,rol22]
+                                   0                          -0 
+   196 BWC[rol2,papa]
+                                   0                          -0 
+   197 BWC[rol2,rol22]
+                                   0                          -0 
+   198 BWC[rol2,mike]
+                                   0                          -0 
+   199 BWC[rol2,november]
+                                   0                          -0 
+   200 BWC[rol2,oscar]
+                                   0                          -0 
+   201 BWC[rol2,uniform]
+                                   0                          -0 
+   202 BWC[rol2,romeo]
+                                   0                          -0 
+   203 BWC[rol2,tango]
+                                   0                          -0 
+   204 BWC[rol22,rol2]
+                                   0                          -0 
+   205 BWC[rol22,papa]
+                                   0                          -0 
+   206 BWC[rol22,tango]
+                                   0                          -0 
+   207 BWC[rol22,victor]
+                                   0                          -0 
+   208 BWC[tango,rol2]
+                                   0                          -0 
+   209 BWC[tango,rol22]
+                                   0                          -0 
+   210 BWC[tango,uniform]
+                                   0                          -0 
+   211 BWC[tango,victor]
+                                   0                          -0 
+   212 BWC[uniform,romeo]
+                                   0                          -0 
+   213 BWC[uniform,rol2]
+                                   0                          -0 
+   214 BWC[uniform,tango]
+                                   0                          -0 
+   215 BWC[uniform,victor]
+                                   0                          -0 
+   216 BWC[uniform,hotel]
+                                   0                          -0 
+   217 BWC[victor,rol22]
+                                   0                          -0 
+   218 BWC[victor,tango]
+                                   0                          -0 
+   219 BWC[victor,uniform]
+                                   0                          -0 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 y[alpha,bravo]
+                    *              0             0             1 
+     2 y[alpha,charlie]
+                    *              0             0             1 
+     3 y[alpha,delta]
+                    *              0             0             1 
+     4 y[bravo,romeo]
+                    *              0             0             1 
+     5 y[bravo,NFV] *              0             0             1 
+     6 y[bravo,charlie]
+                    *              0             0             1 
+     7 y[bravo,alpha]
+                    *              0             0             1 
+     8 y[bravo,oscar]
+                    *              0             0             1 
+     9 y[bravo,foxtrot]
+                    *              0             0             1 
+    10 y[charlie,alpha]
+                    *              0             0             1 
+    11 y[charlie,bravo]
+                    *              0             0             1 
+    12 y[charlie,foxtrot]
+                    *              0             0             1 
+    13 y[charlie,delta]
+                    *              0             0             1 
+    14 y[delta,foxtrot]
+                    *              0             0             1 
+    15 y[delta,alpha]
+                    *              0             0             1 
+    16 y[delta,charlie]
+                    *              0             0             1 
+    17 y[delta,CONTROL]
+                    *              0             0             1 
+    18 y[NFV,hotel] *              0             0             1 
+    19 y[NFV,foxtrot]
+                    *              0             0             1 
+    20 y[NFV,bravo] *              0             0             1 
+    21 y[NFV,romeo] *              1             0             1 
+    22 y[foxtrot,bravo]
+                    *              0             0             1 
+    23 y[foxtrot,hotel]
+                    *              0             0             1 
+    24 y[foxtrot,delta]
+                    *              0             0             1 
+    25 y[foxtrot,juliett]
+                    *              0             0             1 
+    26 y[foxtrot,NFV]
+                    *              1             0             1 
+    27 y[foxtrot,india]
+                    *              0             0             1 
+    28 y[foxtrot,CONTROL]
+                    *              0             0             1 
+    29 y[foxtrot,charlie]
+                    *              0             0             1 
+    30 y[CONTROL,juliett]
+                    *              0             0             1 
+    31 y[CONTROL,foxtrot]
+                    *              0             0             1 
+    32 y[CONTROL,delta]
+                    *              0             0             1 
+    33 y[hotel,kilo]
+                    *              0             0             1 
+    34 y[hotel,india]
+                    *              0             0             1 
+    35 y[hotel,NFV] *              0             0             1 
+    36 y[hotel,uniform]
+                    *              0             0             1 
+    37 y[hotel,romeo]
+                    *              0             0             1 
+    38 y[hotel,foxtrot]
+                    *              0             0             1 
+    39 y[india,hotel]
+                    *              0             0             1 
+    40 y[india,juliett]
+                    *              0             0             1 
+    41 y[india,foxtrot]
+                    *              0             0             1 
+    42 y[india,kilo]
+                    *              0             0             1 
+    43 y[juliett,kilo]
+                    *              0             0             1 
+    44 y[juliett,india]
+                    *              0             0             1 
+    45 y[juliett,foxtrot]
+                    *              0             0             1 
+    46 y[juliett,CONTROL]
+                    *              0             0             1 
+    47 y[kilo,hotel]
+                    *              0             0             1 
+    48 y[kilo,india]
+                    *              0             0             1 
+    49 y[kilo,juliett]
+                    *              0             0             1 
+    50 y[lima,mike] *              0             0             1 
+    51 y[lima,november]
+                    *              0             0             1 
+    52 y[lima,oscar]
+                    *              0             0             1 
+    53 y[mike,lima] *              0             0             1 
+    54 y[mike,november]
+                    *              0             0             1 
+    55 y[mike,papa] *              0             0             1 
+    56 y[mike,rol2] *              0             0             1 
+    57 y[november,mike]
+                    *              0             0             1 
+    58 y[november,lima]
+                    *              0             0             1 
+    59 y[november,oscar]
+                    *              0             0             1 
+    60 y[november,rol2]
+                    *              0             0             1 
+    61 y[oscar,lima]
+                    *              0             0             1 
+    62 y[oscar,november]
+                    *              0             0             1 
+    63 y[oscar,rol2]
+                    *              0             0             1 
+    64 y[oscar,bravo]
+                    *              0             0             1 
+    65 y[oscar,romeo]
+                    *              0             0             1 
+    66 y[romeo,oscar]
+                    *              0             0             1 
+    67 y[romeo,rol2]
+                    *              0             0             1 
+    68 y[romeo,uniform]
+                    *              0             0             1 
+    69 y[romeo,bravo]
+                    *              0             0             1 
+    70 y[romeo,hotel]
+                    *              0             0             1 
+    71 y[romeo,NFV] *              0             0             1 
+    72 y[papa,mike] *              0             0             1 
+    73 y[papa,rol2] *              0             0             1 
+    74 y[papa,rol22]
+                    *              0             0             1 
+    75 y[rol2,papa] *              0             0             1 
+    76 y[rol2,rol22]
+                    *              0             0             1 
+    77 y[rol2,mike] *              0             0             1 
+    78 y[rol2,november]
+                    *              0             0             1 
+    79 y[rol2,oscar]
+                    *              0             0             1 
+    80 y[rol2,uniform]
+                    *              0             0             1 
+    81 y[rol2,romeo]
+                    *              0             0             1 
+    82 y[rol2,tango]
+                    *              0             0             1 
+    83 y[rol22,rol2]
+                    *              0             0             1 
+    84 y[rol22,papa]
+                    *              0             0             1 
+    85 y[rol22,tango]
+                    *              0             0             1 
+    86 y[rol22,victor]
+                    *              0             0             1 
+    87 y[tango,rol2]
+                    *              0             0             1 
+    88 y[tango,rol22]
+                    *              0             0             1 
+    89 y[tango,uniform]
+                    *              0             0             1 
+    90 y[tango,victor]
+                    *              0             0             1 
+    91 y[uniform,romeo]
+                    *              0             0             1 
+    92 y[uniform,rol2]
+                    *              0             0             1 
+    93 y[uniform,tango]
+                    *              0             0             1 
+    94 y[uniform,victor]
+                    *              0             0             1 
+    95 y[uniform,hotel]
+                    *              0             0             1 
+    96 y[victor,rol22]
+                    *              0             0             1 
+    97 y[victor,tango]
+                    *              0             0             1 
+    98 y[victor,uniform]
+                    *              0             0             1 
+    99 f[bravo,alpha,1]
+                    *              0             0             1 
+   100 f[charlie,alpha,1]
+                    *              0             0             1 
+   101 f[delta,alpha,1]
+                    *              0             0             1 
+   102 f[alpha,bravo,1]
+                    *              0             0             1 
+   103 f[alpha,charlie,1]
+                    *              0             0             1 
+   104 f[alpha,delta,1]
+                    *              0             0             1 
+   105 f[charlie,bravo,1]
+                    *              0             0             1 
+   106 f[NFV,bravo,1]
+                    *              0             0             1 
+   107 f[foxtrot,bravo,1]
+                    *              0             0             1 
+   108 f[oscar,bravo,1]
+                    *              0             0             1 
+   109 f[romeo,bravo,1]
+                    *              0             0             1 
+   110 f[bravo,romeo,1]
+                    *              0             0             1 
+   111 f[bravo,NFV,1]
+                    *              0             0             1 
+   112 f[bravo,charlie,1]
+                    *              0             0             1 
+   113 f[bravo,oscar,1]
+                    *              0             0             1 
+   114 f[bravo,foxtrot,1]
+                    *              0             0             1 
+   115 f[delta,charlie,1]
+                    *              0             0             1 
+   116 f[foxtrot,charlie,1]
+                    *              0             0             1 
+   117 f[charlie,foxtrot,1]
+                    *              0             0             1 
+   118 f[charlie,delta,1]
+                    *              0             0             1 
+   119 f[foxtrot,delta,1]
+                    *              0             0             1 
+   120 f[delta,foxtrot,1]
+                    *              0             0             1 
+   121 f[foxtrot,NFV,1]
+                    *              1             0             1 
+   122 f[hotel,NFV,1]
+                    *              0             0             1 
+   123 f[romeo,NFV,1]
+                    *              0             0             1 
+   124 f[NFV,hotel,1]
+                    *              0             0             1 
+   125 f[NFV,foxtrot,1]
+                    *              0             0             1 
+   126 f[NFV,romeo,1]
+                    *              1             0             1 
+   127 f[hotel,foxtrot,1]
+                    *              0             0             1 
+   128 f[india,foxtrot,1]
+                    *              0             0             1 
+   129 f[juliett,foxtrot,1]
+                    *              0             0             1 
+   130 f[foxtrot,hotel,1]
+                    *              0             0             1 
+   131 f[foxtrot,juliett,1]
+                    *              0             0             1 
+   132 f[foxtrot,india,1]
+                    *              0             0             1 
+   133 f[india,hotel,1]
+                    *              0             0             1 
+   134 f[kilo,hotel,1]
+                    *              0             0             1 
+   135 f[romeo,hotel,1]
+                    *              0             0             1 
+   136 f[uniform,hotel,1]
+                    *              0             0             1 
+   137 f[hotel,kilo,1]
+                    *              0             0             1 
+   138 f[hotel,india,1]
+                    *              0             0             1 
+   139 f[hotel,uniform,1]
+                    *              0             0             1 
+   140 f[hotel,romeo,1]
+                    *              0             0             1 
+   141 f[juliett,india,1]
+                    *              0             0             1 
+   142 f[kilo,india,1]
+                    *              0             0             1 
+   143 f[india,juliett,1]
+                    *              0             0             1 
+   144 f[india,kilo,1]
+                    *              0             0             1 
+   145 f[kilo,juliett,1]
+                    *              0             0             1 
+   146 f[juliett,kilo,1]
+                    *              0             0             1 
+   147 f[mike,lima,1]
+                    *              0             0             1 
+   148 f[november,lima,1]
+                    *              0             0             1 
+   149 f[oscar,lima,1]
+                    *              0             0             1 
+   150 f[lima,mike,1]
+                    *              0             0             1 
+   151 f[lima,november,1]
+                    *              0             0             1 
+   152 f[lima,oscar,1]
+                    *              0             0             1 
+   153 f[november,oscar,1]
+                    *              0             0             1 
+   154 f[romeo,oscar,1]
+                    *              0             0             1 
+   155 f[rol2,oscar,1]
+                    *              0             0             1 
+   156 f[oscar,november,1]
+                    *              0             0             1 
+   157 f[oscar,rol2,1]
+                    *              0             0             1 
+   158 f[oscar,romeo,1]
+                    *              0             0             1 
+   159 f[november,mike,1]
+                    *              0             0             1 
+   160 f[papa,mike,1]
+                    *              0             0             1 
+   161 f[rol2,mike,1]
+                    *              0             0             1 
+   162 f[mike,november,1]
+                    *              0             0             1 
+   163 f[mike,papa,1]
+                    *              0             0             1 
+   164 f[mike,rol2,1]
+                    *              0             0             1 
+   165 f[rol2,november,1]
+                    *              0             0             1 
+   166 f[november,rol2,1]
+                    *              0             0             1 
+   167 f[rol2,papa,1]
+                    *              0             0             1 
+   168 f[rol22,papa,1]
+                    *              0             0             1 
+   169 f[papa,rol2,1]
+                    *              0             0             1 
+   170 f[papa,rol22,1]
+                    *              0             0             1 
+   171 f[rol2,rol22,1]
+                    *              0             0             1 
+   172 f[tango,rol22,1]
+                    *              0             0             1 
+   173 f[victor,rol22,1]
+                    *              0             0             1 
+   174 f[rol22,rol2,1]
+                    *              0             0             1 
+   175 f[rol22,tango,1]
+                    *              0             0             1 
+   176 f[rol22,victor,1]
+                    *              0             0             1 
+   177 f[rol2,romeo,1]
+                    *              0             0             1 
+   178 f[uniform,romeo,1]
+                    *              0             0             1 
+   179 f[romeo,rol2,1]
+                    *              0             0             1 
+   180 f[romeo,uniform,1]
+                    *              0             0             1 
+   181 f[tango,rol2,1]
+                    *              0             0             1 
+   182 f[uniform,rol2,1]
+                    *              0             0             1 
+   183 f[rol2,uniform,1]
+                    *              0             0             1 
+   184 f[rol2,tango,1]
+                    *              0             0             1 
+   185 f[uniform,tango,1]
+                    *              0             0             1 
+   186 f[victor,tango,1]
+                    *              0             0             1 
+   187 f[tango,uniform,1]
+                    *              0             0             1 
+   188 f[tango,victor,1]
+                    *              0             0             1 
+   189 f[victor,uniform,1]
+                    *              0             0             1 
+   190 f[uniform,victor,1]
+                    *              0             0             1 
+   191 f[delta,CONTROL,1]
+                    *              0             0             1 
+   192 f[foxtrot,CONTROL,1]
+                    *              0             0             1 
+   193 f[CONTROL,juliett,1]
+                    *              0             0             1 
+   194 f[CONTROL,foxtrot,1]
+                    *              0             0             1 
+   195 f[CONTROL,delta,1]
+                    *              0             0             1 
+   196 f[juliett,CONTROL,1]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
